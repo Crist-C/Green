@@ -11,5 +11,12 @@
     <string name="form_password">password</string>
     <string name="form_confirm_password">password</string>
 
+    <string name="email">EMAIL</string>
+    <string name="google">GOOGLE</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="createAccount">Crear una cuenta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

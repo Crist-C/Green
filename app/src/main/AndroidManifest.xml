@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".UserRegister.UserRegister"
+            android:name=".UserRegister.View.UserSingUp"
             android:exported="true">
 
         </activity>

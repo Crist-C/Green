@@ -1,20 +1,12 @@
 package com.developitwithus.green.UserLogin.Presenter;
 
-import static androidx.core.content.ContextCompat.startActivity;
-
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
-import com.developitwithus.green.R;
 import com.developitwithus.green.UserLogin.IUserLogin;
 import com.developitwithus.green.UserLogin.Iterator.IteratorUserLogin;
 import com.developitwithus.green.UserLogin.View.FragmentLoginFromEmail;
 import com.developitwithus.green.UserLogin.View.FragmentLoginsOptions;
-import com.developitwithus.green.UserLogin.View.UserLogin;
-import com.developitwithus.green.UserRegister.UserRegister;
+import com.developitwithus.green.UserRegister.View.UserSingUp;
 
 public class PresenterUserLogin implements IUserLogin.Presenter {
 
@@ -44,7 +36,7 @@ public class PresenterUserLogin implements IUserLogin.Presenter {
 
     @Override
     public void sendUserToCreateAcount() {
-        viewUserLogin.changeActivity(UserRegister.class);
+        viewUserLogin.changeActivity(UserSingUp.class);
     }
 
 
